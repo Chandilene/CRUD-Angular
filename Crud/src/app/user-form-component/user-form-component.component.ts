@@ -5,8 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   templateUrl: './user-form-component.component.html',
-  styleUrl: './user-form-component.component.css'
+  styleUrl: './user-form-component.component.css',
 })
 export class UserFormComponentComponent {
-
+  nome: string;
+  idade: number = null;
 }
